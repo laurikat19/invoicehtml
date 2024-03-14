@@ -47,6 +47,7 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse; /* Añadido para evitar problemas de bordes en algunas situaciones */
+    margin-bottom: 20px;
 }
 
 th, td {
@@ -83,16 +84,8 @@ header {
     overflow: hidden; /* Añadido para manejar el colapso del margen superior */
 }
 
-caption {
-    font-weight: bold;
-    font-size: 24px;
-    text-align: left;
-    color: #333;
-    }
-				
-
 header h1 {
-    background: #084177;
+    background: #062c50;
     border-radius: 0.25em;
     color: #FFF;
     margin: 0;
@@ -140,6 +133,7 @@ table.meta,
 table.inventory {
     margin: 0 0 3em;
     clear: both;
+    page-break-inside: avoid;
 }
 
 article:after {
