@@ -191,6 +191,9 @@ table.inventory th {
 table.inventory td {
     text-align: right;
 }
+@media print {
+    thead { display: table-header-group; }
+}
 
 table { font-size: 75%; table-layout: fixed; width: 100%; }
 table { border-collapse: separate; border-spacing: 2px; }
