@@ -140,6 +140,9 @@ table.meta,
 table.inventory {
     margin: 0 0 3em;
     clear: both;
+    page-break-inside: avoid;
+    page-break-inside: avoid; /* Evitar que la tabla se divida entre páginas */
+    page-break-before: always; /* Insertar un salto de página antes de la tabla */
 }
 
 article:after {
